@@ -1,0 +1,56 @@
+.Usuarios {
+    margin-left: 620px;
+    padding: 5px;
+}
+
+.Usuario {
+    position: relative;
+    padding: 24px;
+    width: 600px;
+    margin: 16px 0;
+    border-radius: 4px;
+    background-color: #E8E8E8;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, .14);
+}
+
+.Usuario:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, .14);
+}
+
+.Usuario ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.Usuario strong {
+    margin-right: 5px;
+}
+
+.Usuario ul li strong {
+    color: #114668;
+}
+
+.Usuario button {
+    top: 8px;
+    right: 8px;
+    border: none;
+    outline: none;
+    color: #FFF;
+    background: none;
+    cursor: pointer;
+    line-height: 16px;
+    font-size: 24px;
+    font-weight: 700;
+    font-family: sans-serif;
+    position: absolute;
+    border-radius: 24px;
+    background-color: #ced4da;
+    padding: 5px 6px;
+}
+  
+.Usuario button:hover,
+.Usuario button:focus  {
+    color: #FFF;
+    background-color: #114668;
+}

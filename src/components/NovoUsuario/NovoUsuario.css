@@ -1,0 +1,72 @@
+.NovoUsuario {
+    margin: 12px 0;
+}
+
+form {
+    position: fixed;
+    width: 500px;
+    height: 300px;
+    margin: 150px 30px;
+    padding: 0 20px;
+    background-color: #72ABBF;
+    border-radius: 4px;
+}
+
+form:hover {
+    box-shadow: 0 8px 12px rgba(0, 0, 0, .14);
+}
+
+
+.NovoUsuario .Linha {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -8px;
+    padding: 12px 0;
+}
+
+.NovoUsuario .Coluna {
+    flex-grow: 1;
+    max-width: 100%;
+    padding: 0 10px;
+}
+
+.NovoUsuario h2 {
+    margin: 0;
+    padding-top: 20px;
+    color: #114668;
+}
+
+.NovoUsuario label{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.NovoUsuario input {
+    display: block;
+    width: 100%;
+    padding: 6px 4px;
+    border: 1px solid #98C4CF;
+    border-radius: 4px;
+    color: #495057;
+    font-size: 16px;
+}
+
+.NovoUsuario .Button {
+    color: #FFF;
+    background-color: #04618C;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    border-radius: 4px;
+    margin-top: 6px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.NovoUsuario input:focus {
+    outline: 0;
+    border-color: #114668;
+}
+
+.NovoUsuario .Button:hover {
+    background-color: #114668;
+}
